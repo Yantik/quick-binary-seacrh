@@ -8,7 +8,7 @@ int main()
     int sizeclon = size - 1;
     int clone = size;
     int arr[size] = { 3,5,9,12,15,17,21,26,27,29};
-    for (int i = 0; ; i++)
+    for (; ;)
     {
         cout << sizeclon << endl;
         if (arr[sizeclon] == find) { cout << sizeclon; break; }
