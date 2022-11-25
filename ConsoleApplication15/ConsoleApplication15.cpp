@@ -6,7 +6,6 @@ int main()
     int find =27;
     const int size = 10;
     int sizeclon = size - 1;
-    int clone = size;
     int arr[size] = { 3,5,9,12,15,17,21,26,27,29};
     for (; ;)
     {
