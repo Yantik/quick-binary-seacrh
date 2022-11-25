@@ -10,7 +10,6 @@ int main()
     int arr[size] = { 3,5,9,12,15,17,21,26,27,29};
     for (; ;)
     {
-        cout << sizeclon << endl;
         if (arr[sizeclon] == find) { cout << sizeclon; break; }
         if (arr[sizeclon+1] == find) { cout << sizeclon + 1; break; }
         if (find < arr[sizeclon])
